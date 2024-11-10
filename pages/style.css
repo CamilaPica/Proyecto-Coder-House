@@ -1,0 +1,74 @@
+selector {
+    grid-area: valor;
+}
+.headerfondo{background-color: blueviolet;}
+
+header{display: flex;}
+
+main{    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;}
+
+.titleone {
+    background-color: linear-gradient(90deg, rgba(247, 46, 24, 1) 23%, rgba(198, 24, 247, 1) 79%);
+}
+
+nav ul{ 
+    justify-content:space-evenly;
+}
+
+style {
+    padding: 15px;
+    padding: 20px;
+    padding-right: 70px;
+    margin: 50px;
+    border: 1px solid red
+}
+
+li>a {
+    color: rgb(91, 12, 91);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    background-color: rgb(234, 76, 76);
+    text-align: center;
+    font-size: medium
+}
+
+h2 {
+    font-size: small
+}
+
+.subtitle {
+    background-color: rgb(165, 23, 23);
+}
+
+p {
+    text-align: justify
+}
+
+.cartelMoron {
+    transform: translate(200px, 21px)
+}
+
+.encabezadoContacto {
+    text-align: center;
+    background-color: rgb(154, 43, 174);
+}
+
+style{text-align: left;
+border: 1px solid black}
+
+footer {
+    background-color: rgb(191, 28, 28);
+    text-decoration: none
+}
